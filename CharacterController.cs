@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    public Parameters _parameters;
+    public ControllerState _controllerstate;
+
+	void Awake () {
 		
 	}
+
+    public void SetHorizontalForce(float x)
+    {
+        
+    }
+
+    public void SetVerticalForce(float y)
+    {
+
+    }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class ObjectDeathDetect : MonoBehaviour {
 
-	// Use this for initialization
+    CheckpointManager _checkpointmanager;
+    CharacterController _charactercontroller;
+
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		
 	}

@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class WasTriggered : MonoBehaviour {
-	public bool trigger {get; set;};
+
+	// Use this for initialization
+	void Start () {
+		
+	}
 	
-	void Awake() {
-		trigger = true;
+	// Update is called once per frame
+	void Update () {
+		
 	}
 }

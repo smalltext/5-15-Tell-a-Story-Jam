@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour {
 
-	// Use this for initialization
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    public void UpdatePosition()
+    {
+        //Manual update loop called by Player, which can be stopped
+    }
+
+    public void MoveTo(Vector2 place)
+    {
+        //Pans camera to desired position
+    }
+
+    public void MoveBack()
+    {
+        //Pans camera back to original position
+    }
 }
